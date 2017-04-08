@@ -5,7 +5,7 @@ Tarbell project configuration
 """
 
 # Google spreadsheet key
-#SPREADSHEET_KEY = "TEST"
+#SPREADSHEET_KEY = "TEST NUMBER 2"
 
 # Exclude these files from publication
 EXCLUDES = ["*.md", "requirements.txt"]
