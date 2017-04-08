@@ -1,3 +1,133 @@
+
+
 html, body {
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	color: #464553;
+}
+
+html body a,
+html body a:visited {
+	color: #4B47DA;
+	font-weight: 600;
+}
+
+html body a:hover,
+html body a:active,
+html body a:focus {
+	color: #292777;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+html body h1 {
+	font-size: 24px;
+	margin: 10px 0 10px 0;
+}
+
+.about {
+	overflow: auto;
+}
+
+.about-image {
+	background-color: #3936A7;
+	border-radius: 4px;
+	color: white;
+	margin-right: 5%;
+	// padding: 10px;
+	width: 35%;
+	h1 {
+		text-align: center;
+	}
+	img {
+		border-radius: 4px;
+	}
+}
+
+.about-image img {
+	max-width: 100%;
+}
+
+.about-text {
+	width: 55%;
+}
+
+.about-image,
+.about-text {
+	display: inline-block;
+	float: left;
+}
+
+@media (max-width: 678px) {
+	.about-image, .about-text {
+		width: 100%;
+		display: block;
+	}
+	.about-image {
+		margin: 0 0 30px 0;
+	}
+	.about-image img {
+		width: 100%;
+	}
+}
+
+.container.container-skills {
+	margin-top: 100px;
+	max-width: 640px;
+}
+
+footer {
+	align-items: center;
+	background-color: #292777;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 0 0;
+	padding: 10px;
+	text-align: center;
+}
+
+html body footer .container a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+hr {
+	border-top: 1px solid #464553;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.navbar-default.site-nav {
+	background-color: #3936A7;
+}
+
+.navbar-default.site-nav .navbar-brand {
+	color: #ffffff;
+	display: flex;
+}
+
+.navbar-default.site-nav .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-default.site-nav .navbar-nav>li>a:hover {
+	background-color: #292777;
+}
+
+.skill {
+	padding: 10px 0 0 0;
+}
+
+.skill-list-project {
+	background-color: #E8EAF6;
+	border-radius: 4px;
+	list-style-type: none;
+	margin: 10px 0 10px 0;
+	padding: 10px 6px 10px 6px;
+	-webkit-transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.skill-list-project-about {
+	font-style: italic;
 }
