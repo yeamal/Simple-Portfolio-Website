@@ -1,7 +1,7 @@
 {
-  "name": "Simple Portfolio Website",
+  "name": "simple-portfolio-website",
   "version": "1.0.0",
-  "description": "2017 personal site",
+  "description": "Simple portfolio site. Mobile and user-friendly. List style",
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {

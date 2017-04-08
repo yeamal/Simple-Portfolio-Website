@@ -1,2 +1,3 @@
 *.pyc
 tarbell_config.py
+node_modules
