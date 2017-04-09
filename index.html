@@ -19,7 +19,8 @@
 			{% if project.prepend %}<{{ project.prepend }}{% if project.prepend_class %} class="{{ project.prepend_class }}"{% endif %}{% if project.prepend == 'a' %} href="{{ project.href }}" target="_blank"{% endif %}>{% endif %}
 				{% if project.enclose %}<{{ project.enclose }}{% if project.enclose_class %} class="{{ project.enclose_class }}"{% endif %}{% if project.enclose == 'a' %} href="{{ project.href }}" target="_blank"{% endif %}>{% endif %}
 					{% if project.tag %}<{{ project.tag }}{% if project.tag_class %} class="{{ project.tag_class }}"{% endif %}{% if project.tag == 'a' %} href="{{ project.href }}" target="_blank"{% endif %}>{% endif %}{% if project.content %}{{ project.content|process_text }}{% endif %}</{{ project.tag }}>
-				{% if project.append %}</{{ project.append }}>{% endif %}
+				{% if project.enclose %}</{{ project.enclose }}>{% endif %}
+			{% if project.append %}</{{ project.append }}>{% endif %}
 		{% endfor %}
 	</div>
 {% endfor %}
