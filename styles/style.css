@@ -142,10 +142,22 @@ hr {
   display: flex;
   justify-content: center; }
 
+.navbar-collapse-mobile {
+  display: none; }
+
+.navbar-collapse-desktop {
+  display: block; }
+
 @media (max-width: 992px) {
   .navbar-nav {
     width: 100%;
-    display: block; } }
+    display: block; }
+
+  .navbar-collapse-mobile {
+    display: block; }
+
+  .navbar-collapse-desktop {
+    display: none; } }
 .skill {
   float: left;
   padding: 50px 0 0 0; }
