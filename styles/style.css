@@ -15,7 +15,7 @@ html body h3 {
 
 html body a,
 html body a:visited {
-  color: #3D7DA2;
+  color: #007CB9;
   font-weight: 600; }
 
 html body a:hover,
@@ -120,7 +120,7 @@ hr {
   margin-bottom: 30px; }
 
 .navbar-default.site-nav {
-  background-color: #617E8F; }
+  background-color: #007CB9; }
 
 .navbar-default.site-nav .navbar-brand {
   color: #ffffff;
